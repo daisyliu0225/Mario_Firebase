@@ -26,7 +26,7 @@ export default class Level extends cc.Component {
 
         let logoutButton = new cc.Component.EventHandler();
         logoutButton.target = this.node;
-        logoutButton.component = "";
+        logoutButton.component = "level";
         logoutButton.handler = "logout";
 
         cc.find("Canvas/logout").getComponent(cc.Button).clickEvents.push(logoutButton);
@@ -54,7 +54,15 @@ export default class Level extends cc.Component {
         cc.audioEngine.playMusic(this.bgm, true);
     }
 
-    logout(){
+    logout(event, customEventData){
+        firebase.auth().signOut().then(function(){
+            console.log("log out success");
+            cc.director.loadScene("menu");
+            console.log("go back to menu");
+        }).catch(function(error){
+            alert(error);
+            console.log("logout error");
+        })
 
     }
 
