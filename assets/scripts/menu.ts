@@ -17,21 +17,33 @@ export default class menu extends cc.Component {
         this.playBGM();
     // =========================== TODO 1-1 ============================
     // 1. Add dynamic click event to StartButton to call this function  
-        let StartButton = new cc.Component.EventHandler();
-        StartButton.target = this.node;
-        StartButton.component = "menu";
-        StartButton.handler = "loadGameScene";
+        let LoginButton = new cc.Component.EventHandler();
+        LoginButton.target = this.node;
+        LoginButton.component = "menu";
+        LoginButton.handler = "loadLoginScene";
         
-        cc.find("Canvas/login").getComponent(cc.Button).clickEvents.push(StartButton);
+        cc.find("Canvas/login").getComponent(cc.Button).clickEvents.push(LoginButton);
+
+        let signupButton = new cc.Component.EventHandler();
+        signupButton.target = this.node;
+        signupButton.component = "menu";
+        signupButton.handler = "loadSignupScene";
+        
+        cc.find("Canvas/signup").getComponent(cc.Button).clickEvents.push(signupButton);
     }
     // ===============================================================
 
-    loadGameScene(){
+    loadLoginScene(){
     // =========================== TODO 1-2 ============================
     // 1. Load main scene by cc.director
-        cc.director.loadScene("level"); 
+        cc.director.loadScene("login"); 
     // ===============================================================
     }
+
+    loadSignupScene(){
+        cc.director.loadScene("signup"); 
+    }
+
     // update (dt) {}
 
     playBGM(){
