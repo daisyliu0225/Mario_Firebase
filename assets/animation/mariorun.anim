@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "mariorun",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.35,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "64e4b4b9-6ee0-478f-9806-3c9a23171770"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "581db303-48a4-4364-b6eb-b9873b97d322"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "81f25b02-7fc9-48ea-9f2c-ff21185383e1"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "6c73eb1b-7798-4b26-8ed6-5f2a437190cc"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "81f25b02-7fc9-48ea-9f2c-ff21185383e1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
