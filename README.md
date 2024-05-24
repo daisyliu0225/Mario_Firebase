@@ -148,6 +148,8 @@ The question blocks look the same, so only when hitting the block will the playe
 - Mario can eat the mushroom, mario becomes big.(Or you can say becomes HD?)<br>
   Mario can collide into the enemy once, the power up disappears. The player will have a 2 second buffer to run away from the enemy.<br>
 - ![eat shroom](readme/question/eatshroom.png)
+- ![shroom finish](readme/question/shroomfinish.png)<br>
+
 - Coin block
 - ![coin](readme/question/questioncoin.png)
 
