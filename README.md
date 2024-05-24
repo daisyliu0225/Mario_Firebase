@@ -54,9 +54,13 @@ The player has to control the mario in the game.
 
 <br>
 
-- Lose life
-  - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
-  - Mario will lose a life as well if he falls outside the map. (i.e. falls into hole)
+- Life
+  - Lose life
+    - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
+    - Mario will lose a life as well if he falls outside the map. (i.e. falls into hole)
+  - There are no way to gain life in the game.
+  - The life will reset if the player loses or successfully get through the game.
+<br>
 
 ### Enemies
 
