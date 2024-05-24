@@ -155,6 +155,7 @@ The question blocks look the same, so only when hitting the block will the playe
 - Coin block
 - ![coin](readme/question/questioncoin.png)
 - Mario can eat the coin, and the coin counter in info bar will increase by 1. The score increases by 10.
+- info coin
 - ![coin UI](readme/info/coin.png)<br>
 
 ### Animations
