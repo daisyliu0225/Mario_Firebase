@@ -221,6 +221,7 @@ The UI is the info bar.
 ## Advanced Component Description
 
 ### Login/Signup function
+
 #### Signup function
 - To sign up, click on the signup button on the menu scene.
 - menu
@@ -239,6 +240,22 @@ The UI is the info bar.
 <br>
 
 #### Login function
+- To login, click on the signup button on the menu scene.
+- menu
+- ![menu](readme/signup/menu.png)
+- login button
+- ![login button](readme/signup/login.png)<br>
+- After clicking on the login button, the scene goes to the login scene.
+- ![login scene](readme/signup/login_panel.png)<br>
+- Type in email and password and press confirm.
+- ![confirm](readme/signup/confirm.png)
+- If you wanted to cancel, then press cancel.
+- ![cancel](readme/signup/cancel.png)<br>
+- After pressing confirm, the scene goes to level scene.
+- ![level](readme/scene.png)
+
+<br>
+
 ## Firebase page link (if you deploy)
 
 [your web page URL](https://softwarestudiomario.web.app/)
