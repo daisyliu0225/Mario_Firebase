@@ -159,6 +159,15 @@ The animations ae used on player(mario) and the enemies.
   - Big mario run
   - ![big mario run](readme/animation/bigmariorun.png)<br>
 - Enemies
+  - Goomba
+  - ![goomba walk](readme/animation/goombawalk.png)
+  - Turtle
+  - turtle walk
+  - ![turtle walk](readme/animation/turtlewalk.png)
+  - turtle roll
+  - ![turtle roll](readme/animation/turtleroll.png)
+
+<br>
 
 ### Sound effects
 
