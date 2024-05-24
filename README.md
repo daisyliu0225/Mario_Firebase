@@ -129,6 +129,10 @@ There are two enemies in the game. The two enemies' mechanisms are a little diff
   - mechanism
   1. If the player touches turtles, the player will lose a life.
   2. If the player hits turtles by head, the turtle will become "the rolling turtle", "the rolling turtle"'s speed is much faster and the player is not able to kill the rolling turtle.
+  - rolling turtle
+  - ![rooling turtle](readme/enemies/roll.png)
+
+<br>
 
 ### Question Blocks
 
