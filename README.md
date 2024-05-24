@@ -51,7 +51,9 @@ The player has to control the mario in the game.
   - left: mario goes left.
   - right: mario goes right.
   - up: mario jumps.
+
 <br>
+
 - Lose life
   - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
   - Mario will lose a life as well if he 
