@@ -46,13 +46,15 @@ The effects in the world map are animations and sound effects.
 
 ### Info bar
 The info bar is always stuck on the camera. It shows the remaining lives, time, coins and also the score.<br>
-The info mentioned has the same sequence as the picture below.<br>
+The info mentioned has the same sequence as the picture below.
 - info bar
 - ![info bar](readme/info.png)
 
 ### Player
 
 The player has to control the mario in the game.
+- player pic
+- ![player pic](readme/question/shroomfinish.png)
 
 - Make mario move.
   - left: mario goes left.
