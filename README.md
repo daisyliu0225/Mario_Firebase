@@ -40,6 +40,7 @@ Inside the world map, there are the following components.
 - Question blocks
   - coin question block
   - shroom question block
+<br>
 The effects in the world map is animations and sound effects.
 
 ### Player
