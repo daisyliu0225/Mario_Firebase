@@ -64,6 +64,8 @@ The player has to control the mario in the game.
 <br>
 
 - Life
+  - To know how much lives left, look at the life in the info bar.
+  - ![info life](readme/info/life.png)
   - Initially, mario will have 5 lives. Mario will have the last chance to get through the level when life is 0.
   - Lose life
     - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
@@ -73,7 +75,12 @@ The player has to control the mario in the game.
 <br>
 
  - Game over
- - After mario loses all the life, the game over scene pops out. The player can try the level again. Everything on the info will be reset.
+   - After mario loses all the life, the game over scene pops out. The player can try the level again. Everything on the info will be reset.
+   - Also, if the time runs out, the game over scene will also pop out.
+   - To know how much lives left, look at the timer in the info bar.
+   - ![info timer](readme/info/timer.png)
+   - Game over scene
+   - ![game over scene](readme/game_over.png)
 
 ### Enemies
 
