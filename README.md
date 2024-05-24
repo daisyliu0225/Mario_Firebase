@@ -103,13 +103,14 @@ The player has to control the mario in the game.
     - To win the game, mario has to touch the flag.
     - ![flag](readme/flag.png)
     - After touching the flag, the game win scene pops out. The win sound effect plays.<br> After three seconds, the scene will change back to level scene.
+    - game win scene
     - ![win scene](readme/game_win.png)
 
 <br>
 
 ### Enemies
 
-There are two enemies in the game. The two enemies'mechanism are a little different.
+There are two enemies in the game. The two enemies' mechanisms are a little different.
 
 - Goomba
 
