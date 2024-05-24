@@ -56,7 +56,7 @@ The player has to control the mario in the game.
 
 - Lose life
   - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
-  - Mario will lose a life as well if he 
+  - Mario will lose a life as well if he falls outside the map. (i.e. falls into hole)
 
 ### Enemies
 
