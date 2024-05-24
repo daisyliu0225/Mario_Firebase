@@ -72,9 +72,9 @@ The player has to control the mario in the game.
 
 > [!IMPORTANT]
 > Make mario move.<br>
-> **keyboard left**: mario goes left.<br>
-> **keyboard right**: mario goes right.<br>
-> **keyboard up**: mario jumps.<br>
+  > **keyboard left**: mario goes left.<br>
+  > **keyboard right**: mario goes right.<br>
+  > **keyboard up**: mario jumps.<br>
 
 <br>
 
