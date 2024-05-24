@@ -32,6 +32,18 @@ The program is written by daisyliu0225.
 ### World map
 
 There is a world map in the game. 
+To choose the level, click on the buttons on the level scene.
+- level scene
+- ![level scene](readme/scene.png)
+<br>
+After choosing the level, the start scene pops out. After three second, it changes to the main scene.
+- start scene
+- ![start scene](readme/start_scene.png)
+- main(game) scene
+- ![game scene](readme/level1.png)
+
+<br>
+
 Inside the world map, there are the following components.
 - Info bar
 - Player
@@ -77,10 +89,16 @@ The player has to control the mario in the game.
  - Game over
    - After mario loses all the life, the game over scene pops out. The player can try the level again. Everything on the info will be reset.
    - Also, if the time runs out, the game over scene will also pop out.
+   - After the game over scene, the game goes to the level scene.
    - To know how much lives left, look at the timer in the info bar.
    - ![info timer](readme/info/timer.png)
    - Game over scene
    - ![game over scene](readme/game_over.png)
+
+<br>
+  - Game win
+    - To win the game, mario has to touch the flag.
+    - After touching the flag, the game win scene pops out. The win sound effect plays. The 
 
 ### Enemies
 
@@ -133,10 +151,8 @@ The sound effects are used on all parts in the game.
   The sound effects used on the player will not stop the bgm. <br>
 
   - jump effect
-
     - sound effect code: jump<br>
     - The sound effect is used on when mario jumps.<br>
-
   - coin effect
     - sound effect code: coin<br>
     - The sound effect is used when the mario touches the coin. <br>
