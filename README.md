@@ -71,10 +71,10 @@ The player has to control the mario in the game.
 - ![player pic](readme/question/shroomfinish.png)
 
 > [!IMPORTANT]
-> Make mario move.
-> **keyboard left**: mario goes left.
-> **keyboard right**: mario goes right.
-> **keyboard up**: mario jumps.
+> Make mario move.<br>
+> **keyboard left**: mario goes left.<br>
+> **keyboard right**: mario goes right.<br>
+> **keyboard up**: mario jumps.<br>
 
 <br>
 
