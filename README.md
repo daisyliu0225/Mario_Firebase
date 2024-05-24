@@ -35,7 +35,7 @@ There is a world map in the game.
 To choose the level, click on the buttons on the level scene.
 - level scene
 - ![level scene](readme/scene.png)
-- 
+
 <br>
 
 After choosing the level, the start scene pops out. After three seconds, it changes to the main scene.
