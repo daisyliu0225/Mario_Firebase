@@ -31,6 +31,17 @@ The program is written by daisyliu0225.
 
 ### World map
 
+There is a world map in the game. 
+Inside the world map, there are the following components.
+- Player
+- Enemy
+  - goomba
+  - turtle
+- Question blocks
+  - coin question block
+  - shroom question block
+The effects in the world map is animations and sound effects.
+
 ### Player
 
 The player has to control the mario in the game.
@@ -39,6 +50,10 @@ The player has to control the mario in the game.
   - left: mario goes left.
   - right: mario goes right.
   - up: mario jumps.
+<br>
+- Lose life
+  - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
+  - Mario will lose a life as well if he 
 
 ### Enemies
 
