@@ -71,9 +71,9 @@ The player has to control the mario in the game.
 - ![player pic](readme/question/shroomfinish.png)
 
 - Make mario move.
-  - left: mario goes left.
-  - right: mario goes right.
-  - up: mario jumps.
+  - <b>left<b>: mario goes left.
+  - <b>right<b>: mario goes right.
+  - <b>up<b>: mario jumps.
 
 <br>
 
