@@ -222,6 +222,16 @@ The UI is the info bar.
 
 ### Login/Signup function
 #### Signup function
+- To sign up, click on the signup button on the menu scene.
+- menu
+- ![menu](readme/signup/menu.png)
+- signup button
+- ![signup button](readme/signup/signup.png)<br>
+- After clicking on the signup button, the scene goes to the signup scene.
+- ![signup scene](readme/signup/signup_panel.png)
+
+<br>
+
 #### Login function
 ## Firebase page link (if you deploy)
 
