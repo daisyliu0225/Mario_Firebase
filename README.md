@@ -59,7 +59,7 @@ Inside the world map, there are the following components.
 The effects in the world map are animations and sound effects.
 
 ### Info bar
-The info bar is always stuck on the camera. It shows the remaining lives, time, coins and also the score.<br>
+The info bar is always stuck on the camera. It shows the remaining lives, time, coins and also the score. <br>
 The info mentioned has the same sequence as the picture below.
 - info bar
 - ![info bar](readme/info.png)
@@ -98,9 +98,14 @@ The player has to control the mario in the game.
    - ![game over scene](readme/game_over.png)
 
 <br>
+
   - Game win
     - To win the game, mario has to touch the flag.
-    - After touching the flag, the game win scene pops out. The win sound effect plays. The 
+    - ![flag](readme/flag.png)
+    - After touching the flag, the game win scene pops out. The win sound effect plays.<br> After three seconds, the scene will change back to level scene.
+    - ![win scene](readme/game_win.png)
+
+<br>
 
 ### Enemies
 
