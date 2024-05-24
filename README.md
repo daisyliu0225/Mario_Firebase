@@ -126,8 +126,9 @@ The sound effects are used on all parts in the game.
 
 ## Advanced Component Description
 
-### Login function
-
+### Login/Signup function
+#### Signup function
+#### Login function
 ## Firebase page link (if you deploy)
 
 [your web page URL](https://softwarestudiomario.web.app/)
