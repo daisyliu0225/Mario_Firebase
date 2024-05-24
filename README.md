@@ -84,8 +84,8 @@ There are two enemies in the game. The two enemies'mechanism are a little differ
 
 ### Question Blocks
 
-There are two kinds of question blocks in the game. To know what is inside the question block, the player has to control mario and hit the block's bottom.
-
+There are two kinds of question blocks in the game. To know what is inside the question block, the player has to control mario and hit the block's bottom. <br>
+The question blocks look the same, so only when hitting the block will the player know what is inside the block. <br>
 - Shroom block
 - Coin block
 
