@@ -31,6 +31,18 @@ The program is written by daisyliu0225.
 
 ### World map
 
+There is a world map in the game. 
+Inside the world map, there are the following components.
+- Player
+- Enemy
+  - goomba
+  - turtle
+- Question blocks
+  - coin question block
+  - shroom question block
+<br>
+The effects in the world map are animations and sound effects.
+
 ### Player
 
 The player has to control the mario in the game.
@@ -39,6 +51,16 @@ The player has to control the mario in the game.
   - left: mario goes left.
   - right: mario goes right.
   - up: mario jumps.
+
+<br>
+
+- Life
+  - Lose life
+    - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
+    - Mario will lose a life as well if he falls outside the map. (i.e. falls into hole)
+  - There are no way to gain life in the game.
+  - The life will reset if the player loses or successfully get through the game.
+<br>
 
 ### Enemies
 
@@ -62,8 +84,8 @@ There are two enemies in the game. The two enemies'mechanism are a little differ
 
 ### Question Blocks
 
-There are two kinds of question blocks in the game. To know what is inside the question block, the player has to control mario and hit the block's bottom.
-
+There are two kinds of question blocks in the game. To know what is inside the question block, the player has to control mario and hit the block's bottom. <br>
+The question blocks look the same, so only when hitting the block will the player know what is inside the block. <br>
 - Shroom block
 - Coin block
 
@@ -126,8 +148,9 @@ The sound effects are used on all parts in the game.
 
 ## Advanced Component Description
 
-### Login function
-
+### Login/Signup function
+#### Signup function
+#### Login function
 ## Firebase page link (if you deploy)
 
 [your web page URL](https://softwarestudiomario.web.app/)
