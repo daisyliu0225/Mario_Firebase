@@ -33,6 +33,7 @@ The program is written by daisyliu0225.
 
 There is a world map in the game. 
 Inside the world map, there are the following components.
+- Info bar
 - Player
 - Enemy
   - goomba
@@ -42,6 +43,9 @@ Inside the world map, there are the following components.
   - shroom question block
 <br>
 The effects in the world map are animations and sound effects.
+
+### Info bar
+The info bar is always stuck on the camera. It shows the remaining lives, time, coins and also the score.
 
 ### Player
 
@@ -55,12 +59,16 @@ The player has to control the mario in the game.
 <br>
 
 - Life
+  - Initially, mario will have 5 lives. Mario will have the last chance to get through the level when life is 0.
   - Lose life
     - Mario will lose a life if he collides with the enemy and the collision spot is not higher than the enemy.
     - Mario will lose a life as well if he falls outside the map. (i.e. falls into hole)
   - There are no way to gain life in the game.
   - The life will reset if the player loses or successfully get through the game.
 <br>
+
+ - Game over
+ - After mario loses all the life, the game over scene pops out. The player can try the level again. Everything on the info will be reset.
 
 ### Enemies
 
