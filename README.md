@@ -228,7 +228,13 @@ The UI is the info bar.
 - signup button
 - ![signup button](readme/signup/signup.png)<br>
 - After clicking on the signup button, the scene goes to the signup scene.
-- ![signup scene](readme/signup/signup_panel.png)
+- ![signup scene](readme/signup/signup_panel.png)<br>
+- Type in email and password and press confirm.
+- ![confirm](readme/signup/confirm.png)
+- If you wanted to cancel, then press cancel.
+- ![cancel](readme/signup/cancel.png)<br>
+- After pressing confirm, the scene goes to level scene.
+- ![level](readme/scene.png)
 
 <br>
 
