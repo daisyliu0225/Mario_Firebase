@@ -264,7 +264,7 @@ export default class Player extends cc.Component {
     }
 
     loadLevelScene(){
-        cc.director.loadScene("menu");
+        cc.director.loadScene("level");
     }
 
     updatemushroomcountdown() {

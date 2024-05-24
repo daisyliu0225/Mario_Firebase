@@ -35,15 +35,25 @@ The program is written by daisyliu0225.
 
 The player has to control the mario in the game.
 
+- Make mario move.
+  - left: mario goes left.
+  - right: mario goes right.
+  - up: mario jumps.
+
 ### Enemies
 
 There are two enemies in the game. The two enemies'mechanism are a little different.
 
 - Goomba
+
   - picture
   - mechanism
+
   1. If the player touches goombas, the player will lose a life.
   2. If the player hits goombas by head, the goomba will die.
+
+     <br>
+
 - Turtle
   - picture
   - mechanism
@@ -96,7 +106,7 @@ The sound effects are used on all parts in the game.
     - The sound effect is used when mario loses the power up effect <br>
   - stomp effect
     - sound effect code: stomp <br>
-    - The sound effect is used when mario stomps on the enemy. <br>
+    - The sound effect is used when mario stomps on the enemy's head. <br>
 
   #### Sound effects used on background
 
