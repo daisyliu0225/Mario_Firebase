@@ -45,7 +45,8 @@ Inside the world map, there are the following components.
 The effects in the world map are animations and sound effects.
 
 ### Info bar
-The info bar is always stuck on the camera. It shows the remaining lives, time, coins and also the score.
+The info bar is always stuck on the camera. It shows the remaining lives, time, coins and also the score.<br>
+The info mentioned has the same sequence as the picture below.<br>
 - info bar
 - ![info bar](readme/info.png)
 
