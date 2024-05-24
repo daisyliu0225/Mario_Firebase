@@ -93,7 +93,7 @@ The player has to control the mario in the game.
    - After mario loses all the life, the game over scene pops out. The player can try the level again. Everything on the info will be reset.
    - Also, if the time runs out, the game over scene will also pop out.
    - After the game over scene, the game goes to the level scene.
-   - To know how much lives left, look at the timer in the info bar.
+   - To know how much time is left, look at the timer in the info bar.
    - ![info timer](readme/info/timer.png)
    - Game over scene
    - ![game over scene](readme/game_over.png)
