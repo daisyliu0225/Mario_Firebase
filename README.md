@@ -119,7 +119,7 @@ There are two enemies in the game. The two enemies' mechanisms are a little diff
   - ![goomba pic](readme/enemies/goomba.png)
   - mechanism
   1. If the player touches goombas, the player will lose a life.
-  2. If the player hits goombas by head, the goomba will die.
+  2. If the player hits goombas by head, the goomba will die. The score increases by 50.
 
      <br>
 
@@ -128,7 +128,8 @@ There are two enemies in the game. The two enemies' mechanisms are a little diff
   - ![turtle pic](readme/enemies/turtle.png)
   - mechanism
   1. If the player touches turtles, the player will lose a life.
-  2. If the player hits turtles by head, the turtle will become "the rolling turtle", "the rolling turtle"'s speed is much faster and the player is not able to kill the rolling turtle.
+  2. If the player hits turtles by head, the turtle will become "the rolling turtle". The score increases by 50. <br>
+    "The rolling turtle"'s speed is much faster and the player is not able to kill the rolling turtle.
   - rolling turtle
   - ![rooling turtle](readme/enemies/roll.png)
 
@@ -147,11 +148,14 @@ The question blocks look the same, so only when hitting the block will the playe
 - ![get shroom](readme/question/getshroom.png)
 - Mario can eat the mushroom, mario becomes big.(Or you can say becomes HD?)<br>
   Mario can collide into the enemy once, the power up disappears. The player will have a 2 second buffer to run away from the enemy.<br>
+  If mario does not collide into the enemy, the power up will disappear after eating the power up shroom for 5 seconds.<br>
 - ![eat shroom](readme/question/eatshroom.png)
 - ![shroom finish](readme/question/shroomfinish.png)<br>
 
 - Coin block
 - ![coin](readme/question/questioncoin.png)
+- Mario can eat the coin, and the coin counter in info bar will increase by 1. The score increases by 10.
+- ![coin UI](readme/info/coin.png)<br>
 
 ### Animations
 
@@ -170,6 +174,7 @@ The animations ae used on player(mario) and the enemies.
   - ![big mario jump](readme/animation/bigmariojump.png)
   - Big mario run
   - ![big mario run](readme/animation/bigmariorun.png)<br>
+  
 - Enemies
   - Goomba
   - ![goomba walk](readme/animation/goombawalk.png)
