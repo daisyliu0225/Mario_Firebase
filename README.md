@@ -195,6 +195,7 @@ The sound effects are used on all parts in the game.
     - The sound effect is used when the player loses a life. <br>
 
 ### UI
+The UI is the info bar.
 
 ## Advanced Component Description
 
