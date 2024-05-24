@@ -146,6 +146,18 @@ The question blocks look the same, so only when hitting the block will the playe
 The animations ae used on player(mario) and the enemies.
 
 - Player
+  - mario idle
+  - ![mario idle](readme/animation/marioidle.png)
+  - mario jump
+  - ![mario jump](readme/animation/mariojump.png)
+  - mario run
+  - ![mario run](readme/animation/mariorun.png)
+  - Big mario idle
+  - ![big mario idle](readme/animation/bigmarioidle.png)
+  - Big mario jump
+  - ![big mario jump](readme/animation/bigmariojump.png)
+  - Big mario run
+  - ![big mario run](readme/animation/bigmariorun.png)<br>
 - Enemies
 
 ### Sound effects
